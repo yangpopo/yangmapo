@@ -281,7 +281,11 @@ a:hover {
 	margin-bottom: 15px;
 }
 .mar-bot20 {
-	margin-bottom: 20px;
+	margin-bottom: 20px
+}
+.mar-bot20 img {
+	width: 150px;
+	height: 150px;
 }
 .mar-bot25 {
 	margin-bottom: 25px;
@@ -398,7 +402,7 @@ section.section {
 }
 
 .navbar-collapse.in {
-	margin-top: -5px !important;
+	/* margin-top: -5px !important; */
 }
 
 /*===========================
@@ -571,6 +575,8 @@ About
 	-webkit-border-radius:50%;
 		-moz-border-radius:50%;
 			border-radius:50%;
+			width: 180px;
+			height: 180px;
 }
 
 .team-detail h4 {
