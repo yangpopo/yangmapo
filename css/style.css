@@ -446,6 +446,9 @@ section.section {
   font-size: 64px;
   font-weight: 700;
 }
+.intro-content  h2 span{
+  color: #85b0be;
+}
 
 .intro-content  h3 {
   color: #fff;
