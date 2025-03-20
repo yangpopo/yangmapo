@@ -35,15 +35,15 @@
       	  <span class="fa fa-bars color-white"></span>
         </button>
         <div class="navbar-logo">
-          <a href="index.html"><img data-0="width:155px;" data-300=" width:120px;" src="img/logo.png" alt=""></a>
+          <a href="index.html"><img data-0="width:155px;" data-300=" width:120px;" src="img/logo.webp" alt=""></a>
         </div>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-          <li class="active"><a href="index.html">首页</a></li>
+          <li class="active"><a href="#intro">首页</a></li>
           <li><a href="#section-about">关于我们</a></li>
           <li><a href="#section-works">成功案例</a></li>
-          <li><a href="#section-contact">联络我们</a></li>
+          <li><a href="#section-contact">联系我们</a></li>
         </ul>
       </div>
       <!--/.navbar-collapse -->
@@ -228,7 +228,7 @@
             <figure class="member-photo"><img src="./img/team/member2.webp" alt=""></figure>
             <div class="team-detail">
               <h4>利莉</h4>
-              <span>设计师</span>
+              <span>摄影设计师</span>
             </div>
           </div>
         </div>
@@ -318,7 +318,7 @@
 
       <div class="row">
         <nav id="filter" class="col-md-12 text-center">
-          <ul>
+          <ul style="padding: 0;">
             <li><a href="#" class="current btn btn-small" data-filter="*">全部</a></li>
             <li><a href="#" class="btn btn-small" data-filter=".webdesign">web网站</a></li>
             <li><a href="#" class="btn btn-small" data-filter=".photography">app和小程序</a></li>
@@ -582,6 +582,42 @@
                 </div>
               </article>
 
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="./img/portfolio/34.webp" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a>活动海报</a></h5>
+                      <a href="img/portfolio/341.webp" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="./img/portfolio/35.webp" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a>活动海报</a></h5>
+                      <a href="img/portfolio/351.webp" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="./img/portfolio/36.webp" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a>活动海报</a></h5>
+                      <a href="img/portfolio/361.webp" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
 
 
 
@@ -598,26 +634,23 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-sm-2 align-center">
-              <img alt="logo" src="./img/clients/logo1.png">
+              <img alt="logo" src="./img/clients/logo1.webp">
             </div>
 
             <div class="col-sm-2 align-center">
-              <img alt="logo" src="./img/clients/logo2.png">
+              <img alt="logo" src="./img/clients/logo2.webp">
             </div>
 
             <div class="col-sm-2 align-center">
-              <img alt="logo" src="./img/clients/logo3.png">
+              <img alt="logo" src="./img/clients/logo3.webp">
             </div>
 
             <div class="col-sm-2 align-center">
-              <img alt="logo" src="./img/clients/logo4.png">
+              <img alt="logo" src="./img/clients/logo4.webp">
             </div>
 
             <div class="col-sm-2 align-center">
-              <img alt="logo" src="./img/clients/logo5.png">
-            </div>
-            <div class="col-sm-2 align-center">
-              <img alt="logo" src="./img/clients/logo6.png">
+              <img alt="logo" src="./img/clients/logo5.webp">
             </div>
           </div>
         </div>
@@ -633,39 +666,35 @@
       <div class="row mar-bot40">
         <div class="col-md-offset-3 col-md-6">
           <div class="section-header">
-            <h2 class="section-heading animated" data-animation="bounceInUp">Contact us</h2>
-            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
+            <h2 class="section-heading animated" data-animation="bounceInUp">联系方式</h2>
+            <p>如果您需要开发web站、小程序、app，或者需要其他技术支持合作议，都可以与我们联系。</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="cform" id="contact-form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->
             <div id="errormessage"></div>
             <form action="" method="post" class="contactForm">
 
               <div class="field your-name form-group">
-                <input type="text" name="name" placeholder="Your Name" class="cform-text" size="40" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <input type="text" readonly name="email" placeholder="请输入邮件" value="官方邮件:yangmapo@qq.com" class="cform-text" >
                 <div class="validation"></div>
               </div>
               <div class="field your-email form-group">
-                <input type="text" name="email" placeholder="Your Email" class="cform-text" size="40" data-rule="email" data-msg="Please enter a valid email">
+                <input type="text" readonly name="phone" placeholder="请输入电话" class="cform-text" value="联系电话:13372773719" >
                 <div class="validation"></div>
               </div>
               <div class="field subject form-group">
-                <input type="text" name="subject" placeholder="Subject" class="cform-text" size="40" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                <input type="text" readonly name="subject" placeholder="请输入微信号" class="cform-text" value="微信号:13372773719">
                 <div class="validation"></div>
               </div>
 
-              <div class="field message form-group">
-                <textarea name="message" class="cform-textarea" cols="40" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validation"></div>
-              </div>
 
-              <div class="send-btn">
+              <!-- <div class="send-btn">
                 <input type="submit" value="SEND MESSAGE" class="btn btn-theme">
-              </div>
+              </div> -->
 
             </form>
           </div>
@@ -678,7 +707,7 @@
 
   <section id="footer" class="section footer">
     <div class="container">
-      <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+      <!-- <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
         <div class="col-sm-12 align-center">
           <ul class="social-network social-circle">
             <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
@@ -688,13 +717,13 @@
             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
-      </div>
+      </div> -->
       <div class="row align-center mar-bot20">
         <ul class="footer-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Privacy policy</a></li>
-          <li><a href="#">Get in touch</a></li>
+          <li><a href="#header">首页</a></li>
+          <li><a href="#section-about">关于我们</a></li>
+          <li><a href="#section-works">成功案例</a></li>
+          <li><a href="#section-contact">联系我们</a></li>
         </ul>
       </div>
       <div class="row align-center copyright">
